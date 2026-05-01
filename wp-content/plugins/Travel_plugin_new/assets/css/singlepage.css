@@ -1,0 +1,705 @@
+.singlepackage_container {
+    margin-bottom: 50px;
+}
+.single_packageBanner {
+    background-image: url("/wp-content/uploads/2024/10/single_banner-scaled.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    backdrop-filter: brightness(0.5);
+    background-color: #000000;
+    max-height: 100%;
+    height: 301px;
+    padding: 0;
+}
+
+.single_packageBanner h1.package_title {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: brightness(0.5);
+    color: #fff;
+    padding-left: 81px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 67px;
+    text-transform: uppercase;
+}
+
+.single_tabsbtn_container ul {
+    border: unset;
+    gap: 39px;
+}
+
+.single_tabsbtn_container {
+    padding: 15px 74px 15px 73px;
+    box-shadow: 0px 1px 3px 0px #0000000D;
+    border-radius: 60px;
+    border: 1px solid #EBEBEB;
+    margin-top: 49px;
+}
+
+.single_tabsbtn_container ul li button {
+    padding: 16px 35px;
+    border-radius: 60px !important;
+    border: 1px solid #DFDFDF !important;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #222222;
+    display: flex;
+    align-items: center;
+}
+
+.single_tabsbtn_container ul li button.active,
+.single_tabsbtn_container ul li button:hover {
+    background-color: #F3F3F3 !important;
+    color: #222222 !important;
+}
+
+.single_tabsbtn_container ul li button img {
+    width: 19px;
+    height: 19px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
+.tab-content .tab_heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    margin: 0;
+}
+
+.tab-content .tab_subHead {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+}
+
+.image_grid {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(287px, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+	margin-top:29px;
+}
+
+.image_grid img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+	max-height:220px;
+}
+
+.image_grid img:first-child {
+    grid-column: span 2;
+	max-height: 379px;
+}
+
+.tab_contentContainer h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.tab_contentContainer p, .itinerary_tab .accordion-body, .itinerary_tab .accordion-body p {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    color: #333333;
+}
+.itinerary_tab .accordion-button.collapsed::after {
+    content: '\f062';
+    font-family: 'FontAwesome';
+    background-image: unset;
+	text-align:center;
+}
+.itinerary_tab .accordion-button::after {
+    content: '\f063';
+    font-family: 'FontAwesome';
+    background-image: unset;
+	text-align:center;
+}
+.itinerary_tab .accordion-button:not(.collapsed)::after{
+	top:13px;
+}
+.itinerary_tab .accordion-button.collapsed:after {
+    transform: rotate(180deg) !important;
+}
+.tab_contentContainer .content_desc {
+    margin-top: 32px;
+}
+
+
+/* package form css */
+.book_tour_container {
+/*     padding: 48px 27px 50px;
+    background-color: #F3F3F3;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px; */
+    margin-top: 20px;
+}
+
+.book_inputbox label {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 16px !important;
+    margin-left: 15px;
+}
+
+.book_inputbox input {
+    padding: 14px 29px;
+    border-radius: 30px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+
+}
+
+.book_pkgform_container {
+    gap: 37px;
+}
+
+.single_book_btn button {
+    border: 1px solid #EC3230;
+    background-color: #EC3230;
+    padding: 15px 29px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #fff;
+
+}
+
+.bookform_contentbox h4,
+.recent_toursContainer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.recent_toursContainer {
+    padding: 31px 32px;
+    background: #F3F3F3;
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    margin-top: 27px;
+}
+
+.recent_toursContainer h4 {
+    text-align: left;
+    position: relative; 
+    padding-left: 15px;
+}
+
+.recent_toursContainer h4::before {
+    content: '';
+    position: absolute;
+    height: 30px !important;
+    margin-right: 14px;
+    width: 3px;
+    background: #EC3230;
+    border-radius: 10px;
+    top: 6px;
+    left: 0;
+}
+
+.tours_card {
+    display: flex;
+    gap: 19px;
+}
+
+.recent_image img {
+    max-width: 100%;
+    width: 194px;
+    height: 105px;
+    max-height: 100%;
+    border-radius: 2px;
+}
+
+.recent_contentCont h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    margin: 0;
+	color:#000;
+}
+
+.recent_priceCont {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #EC3230;
+}
+
+.star_rating_container i {
+    color: #FBD433;
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+.recent_contentCont {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tourCard_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.itinerary_tab .card {
+    border-radius: 10px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 4px 16px 0px #0000000F !important;
+}
+
+.itinerary_tab .card .card-header {
+    background: unset;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    padding: 16px 25px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.itinerary_tab .card .card-body {
+    padding: 30px 25px;
+}
+
+.itinerary_tab .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+	margin:0 !important;
+}
+.tab_contentContainer p{
+	margin-bottom:0;
+}
+.itinerary_tab .accordion-header button {
+    background-color: #F6F6F6 !important;
+    border-radius: 5px;
+    color: #000000 !important;
+    border: 1px solid #D9D9D9 !important;
+    box-shadow: unset;
+	padding: 10px 14px;
+}
+
+.itinerary_tab .accordion-item {
+    border: unset;
+	margin:0 !important;
+}
+
+.itinerary_tab .accordion-button strong {
+    font-weight: 500;
+	min-width: 50px;
+}
+
+.itinerary_tab .accordion-button {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+	white-space:unset;
+}
+
+
+/* inclusion and exclusion  */
+.incExc_tab h3 {
+    margin-bottom: 46px;
+}
+.inclusion_listContainer, .exclusion_listContainer {
+    margin-left: 23px;
+}
+
+.inclusion_listContainer ul li,
+.exclusion_listContainer ul li {
+    list-style: none;
+    display: flex;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+
+.inclusion_listContainer ul li:before {
+    content: '\f058';
+    font-weight: 900;
+    font-family: 'FontAwesome';
+    color: #00B8F0;
+}
+
+.exclusion_listContainer ul li:before {
+    content: '\f057';
+    font-weight: 900;
+    font-family: 'FontAwesome';
+    color: #EC3230;
+}
+
+.inclusion_listContainer ul,
+.exclusion_listContainer ul {
+    margin-top: 14px;
+    padding-left: 0;
+}
+
+.inclusion_listContainer h4,
+.exclusion_listContainer h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.exclusion_listContainer {
+    margin-top: 50px;
+}
+
+/* gallery */
+.gallery_gridContainer img {
+    max-width: 100%;
+    max-height: 220px;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.gallery_gridContainer img:first-child {
+    grid-column: span 2;
+    max-height: 379px;
+}
+
+.gallery_gridContainer {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, minmax(289px, 1fr)); */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+/* review */
+.reviews_card_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+	margin-top:36px;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+.review_cont h5 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.review_cont h6 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
+.review_card .card-body {
+    padding: 29px 28px 38px 53px !important;
+}
+
+.review_card {
+    box-shadow: 0px 4px 16px 0px #00000014;
+}
+
+.review_card .user_name {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #EC3230;
+	text-transform:capitalize;
+}
+
+.user_profession {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.review_card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 !important;
+}
+
+.review_card .travel_date {
+    color: #EC3230;
+}
+
+.review_card .user_header {
+    margin-bottom: 18px;
+}
+
+.card.review_card {
+    position: relative;
+	border:unset;
+}
+
+.card.review_card:before {
+    content: '';
+    position: absolute;
+    height: 172px;
+    width: 5px;
+    left: 3px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #EC3230;
+    border-radius: 8px;
+}
+
+.card.review_card:after {
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 21px;
+    left: 10px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/wp-content/uploads/2024/10/tiangle.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.tab_contentContainer .tab-pane.active {
+    background: unset;
+}
+
+.tab_contentContainer {
+    box-shadow: unset;
+    border: unset;
+}
+
+.main_cotent_box {
+    margin-top: 30px;
+}
+.user_image {
+    max-width: 50px !important;
+    width: 50px !important;
+    height: 50px!important;
+    max-height: 100%!important;
+	object-fit:cover;
+}
+.tourCard_container a {
+    text-decoration: none;
+	color:#EC3230 !important;
+}
+.tabs_container {
+    padding-right: 32px !important;
+}
+.bookingform_Container {
+    padding-left: 32px !important;
+}
+
+.dubai_packages_section .package-sec-text .package-inner-includes:not(:has(li)) {
+    display: none !important;
+}	
+	
+
+@media (max-width:1200px) {
+    .single_tabsbtn_container {
+        padding: 13px 20px 13px 20px;
+        border-radius: 25px;
+    }
+
+    .single_tabsbtn_container ul {
+        column-gap: 12px;
+        row-gap: 18px;
+        justify-content: center;
+    }
+	.tabs_container, .bookingform_Container{
+		padding:0 !important;
+	}
+
+
+}
+
+
+@media(max-width:900px) {
+    .singlepackage_container {
+        padding: 0 5px !important;
+    }
+
+    .single_packageBanner {
+        height: 220px;
+		border-radius: 10px;
+    }
+
+    .single_packageBanner h1.package_title {
+        padding-left: 40px;
+        font-size: 30px !important;
+        line-height: 45px !important;
+    }
+}
+
+@media(max-width:767px) {
+	.review_card .user_header{
+		gap:10px;
+	}
+/*     .book_tour_container {
+        padding: 30px 17px 37px 16px;
+    } */
+	.review_card .card-body {
+   		padding: 15px 19px 15px 28px !important;
+	}
+
+    .bookform_contentbox h4,
+    .recent_toursContainer h4 {
+        margin-bottom: 20px;
+    }
+
+    .book_pkgform_container {
+        gap: 35px;
+    }
+
+    .itinerary_tab .accordion-header button {
+        flex-wrap: wrap;
+    }
+
+    .single_tabsbtn_container ul li button {
+        padding: 13px 12px 15px 11px;
+        border-radius: 0 !important;
+        width: fit-content;
+    }
+
+    .single_tabsbtn_container {
+        margin-top: 30px;
+        padding: 23px 11px 24px 12px;
+        border-radius: 0;
+    }
+
+    .tab-content .tab_heading {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .tab_contentContainer h3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .bookform_contentbox,
+    .recent_toursContainer {
+        display: none;
+    }
+
+    .itinerary_tab .card .card-body {
+        padding: 15px 10px;
+    }
+
+    .itinerary_tab .accordion-button {
+        line-height: 24px;
+    }
+
+    .itinerary_tab .accordion-button::after {
+        position: absolute;
+        top: 19px;
+        right: 18px;
+    }
+	.incExc_tab h3 {
+    	margin-bottom: 20px;
+	}
+	.exclusion_listContainer {
+   		margin-top: 30px;
+	}
+	.inclusion_listContainer h4, .exclusion_listContainer h4 {
+    	font-size: 23px;
+    	line-height: 35px;
+	}
+	.card.review_card:before {
+    	height: 117px;
+	}
+	.single_packageBanner{
+		margin-top:30px;
+	}
+	.tab-content .tab_subHead {
+    margin-bottom: 19px;
+}
+	.tab_contentContainer .content_desc {
+    margin-top: 38px;
+		margin-bottom:31px;
+}
+	.itinerary_tab .accordion{
+		margin-top:unset;
+	}
+	.gallery_gridContainer img:first-child, .gallery_gridContainer img{
+		max-height:200px;
+	}
+	.inclusion_listContainer, .exclusion_listContainer {
+    margin-left: 0px;
+}
+}
+
+@media(max-width:600px) {
+	.single_packageBanner h1.package_title {
+    	justify-content: center;
+	}
+
+    .gallery_gridContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery_gridContainer img {
+        max-width: 100%;
+    }
+
+    .gallery_gridContainer img:first-child {
+        grid-column: unset;
+		max-height:200px;
+    }
+
+    .image_grid {
+        width: 100%;
+        max-width: 80%;
+        margin: 0 auto;
+        gap: 8px;
+    }
+
+    .image_grid img:first-child {
+        max-height: 150px;
+        height: 100%;
+    }
+
+    .tours_card {
+        flex-direction: column;
+    }
+
+    .recent_contentCont {
+        gap: 10px;
+    }
+
+
+}

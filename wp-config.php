@@ -1,5 +1,9 @@
 <?php
+  define('FS_METHOD', 'direct');
+  /* That's all, stop editing! Happy publishing. */
 /**
+ *  define('FS_METHOD', 'direct');
+ 
  * The base configuration for WordPress
  *
  * The wp-config.php creation script uses this file during the installation.
@@ -20,22 +24,29 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wordpress_db' );
+// define( 'DB_NAME', 'wordpress' );
 
+
+define( 'DB_NAME', 'wordpress' );
+define( 'DB_USER', 'wpuser' );
+define( 'DB_PASSWORD', 'password123' );
+define('DB_HOST', '127.0.0.1');
+//define( 'DB_HOST', 'localhost' );
+define( 'DB_CHARSET', 'utf8mb4' );
+define( 'DB_COLLATE', '' );
 /** Database username */
-define( 'DB_USER', 'root' );
+// define( 'DB_USER', 'wpuser' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+// define( 'DB_PASSWORD', 'password123' );
 
 /** Database hostname */
-define( 'DB_HOST', 'localhost' );
+// define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
-define( 'DB_COLLATE', '' );
+// define( 'DB_COLLATE', '' );
 
 /**#@+
  * Authentication unique keys and salts.
@@ -88,7 +99,8 @@ $table_prefix = 'wp_';
 define( 'WP_DEBUG', true);
 define('WP_DEBUG_LOG', true);
 define('WP_DEBUG_DISPLAY', true);
-
+define('WP_HOME', 'http://localhost/wordpress');
+define('WP_SITEURL', 'http://localhost/wordpress');
 /* Add any custom values between this line and the "stop editing" line. */
 
 

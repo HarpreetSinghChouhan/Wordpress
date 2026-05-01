@@ -1,0 +1,41 @@
+<div class="query_main">
+    <h1>Queries</h1><hr>
+    <table id="table_id" class="display">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>NAME</th>
+                <th>LAST NAME</th>
+                <th>MOBILE</th>
+                <th>Email</th>
+                <th>QUERY NAME</th>
+                <th>TRAVEL DATE</th>
+                <th>PERMALINK</th>
+                <th>CALL/EMAIL</th>
+                <th>CREATE DATE</th>
+                <th>CREATE TIME</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+        <?php foreach ($data as $key => $value) {  ?>
+            <tr>
+                <td><?= $key+1 ?></td>
+                <td><?= $value->name ?? ''  ?></td>
+                <td><?= $value->last_name ?? ''  ?></td>
+                <td><?= $value->mobile ?? ''  ?></td>
+                <td><?= $value->email ?? ''  ?></td>
+                <td><?= $value->__query ?? ''  ?></td>
+                <td><?= $value->date ?? ''  ?></td>
+                <td><a href="<?= $value->_permalink ?? ''  ?>"><?= $value->_permalink ?? ''  ?></a></td>
+                <td><?= $value->call_email ?? ''  ?></td>
+                <td><?= $value->created_at ?? ''  ?></td>
+                <td><?= $value->time ?? '' ?></td>
+                               <td><button id="<?= $value->id   ?>" class="btn btn-danger del_query" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash-fill" viewBox="0 0 16 16">
+  <path d="M2.5 1a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1H3v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4h.5a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H10a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1H2.5zm3 4a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 .5-.5zM8 5a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-1 0v-7A.5.5 0 0 1 8 5zm3 .5v7a.5.5 0 0 1-1 0v-7a.5.5 0 0 1 1 0z"/>
+</svg></button></td>
+            </tr>
+        <?php } ?>
+        </tbody>
+    </table>
+</div>

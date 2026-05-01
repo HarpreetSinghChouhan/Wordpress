@@ -1,0 +1,6 @@
+2026-05-01 15:51:56.672 [info] Started local extension host with pid 32760.
+2026-05-01 15:51:56.725 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2026-05-01 15:51:56.896 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.vscode/extensions
+2026-05-01 15:51:57.225 [info] MCP Registry configured: https://api.mcp.github.com
+2026-05-01 15:51:57.559 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-05-01 15:51:59.717 [info] [perf] Render performance baseline is 35ms

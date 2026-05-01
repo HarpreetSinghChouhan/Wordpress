@@ -1,0 +1,540 @@
+m/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+.single-travel-package .col-md-8 {
+    width: 66.66666667%;
+}
+
+/* .single-travel-package .col-md-4 {
+    position: fixed;
+    z-index: 2;
+    width: 400px;
+    right: 16%;
+    top: 21%;
+}
+ */
+.single-travel-package  button.rl_btn_read.btn.btn_diffc {
+    display: none;
+}
+.single-travel-package .row {
+    display: flex;
+}
+.single-travel-package ul.nav.navbar-nav {
+    display: flex !important;
+	padding: 11px 0;
+	    position: sticky;
+    top: 50px;
+}
+}
+.single-travel-package ul.nav.navbar-nav li {
+    list-style: none;
+}
+/* .single-travel-package ul.nav.navbar-nav a {
+    margin: 0 0px 0 42px !important;
+} */
+.single-travel-package .navbar-header button.navbar-toggle {
+    display: none;
+}
+.single-travel-package div#overview {
+    float: none !important;
+    margin-bottom: 30px;
+}
+.single-travel-package .package-section-price {
+    padding: 12px 20px !important;
+    border-radius: 15px;
+    text-align: left;
+}
+.single-travel-package .sales-days {
+    text-align: center;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #fff;
+    background: #ffd525;
+    border-radius: 5px;
+    margin-top: 7px;
+}
+.single-travel-package .package-price s {
+    color: #bababa;
+    font-size: 14px;
+}
+.single-travel-package .package-price span {
+    font-size: 19px;
+    color: #e82034;
+}
+
+.single-travel-package .package-section-priceba {
+    background: #fff;
+    box-shadow: 0px 0px 25px 0px #cfcfcf36;
+    width: 73%;
+    margin: auto;
+    padding: 30px;
+    padding: 12px 20px !important;
+    border-radius: 15px;
+    text-align: left;
+	margin-top: 20px;
+}
+.single-travel-package .package-section-priceba input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    transition: all .3s;
+    border-bottom: 1px solid #dddd;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+    width: 100%;
+    height:40px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    outline: none;
+    color: #505050;
+}
+.single-travel-package .package-section-priceba [type=button], [type=submit], button {
+    color: #ffd525;
+    border: 1px solid #ffd525;
+    width: 100%;
+    border-radius: 10px;
+}
+.single-travel-package .package-section-priceba [type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+    color: #fff;
+    background-color: #ffd525;
+    text-decoration: none;
+}
+.single-travel-package .col-md-4 li {
+    font-size: 12px;
+    line-height: 24px;
+    list-style: decimal;
+    margin-top: 3px;
+}
+.package-price h6 {
+    font-size: 13px;
+    margin-left: 10px !important;
+    margin-top: 2.5px !important;
+}
+.package-price {
+    display: flex;
+	align-items:center;
+}
+.single-travel-package div#exampleModal {
+    display: none;
+}
+.single-travel-package .package-detail-lg tr {
+    text-align: left;
+}
+.single-travel-package img.day_pic {
+    display: none;
+}
+#qlwapp.qlwapp-middle-left, #qlwapp.qlwapp-bottom-left, #qlwapp.qlwapp-middle-right, #qlwapp.qlwapp-bottom-right {
+    z-index: 9999 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.single-travel-package ul.nav.nav-tabs li a {
+    padding: 9px 39px;
+    border-radius: 2px !important;
+}
+.single-travel-package ul.nav.nav-tabs li {
+    margin-top: 35px;
+    list-style: none;
+}
+.single-travel-package .accommodation-list.inlusions-data, .accommodation-list.exlusions-data {
+    padding: 30px 20px;
+}
+.single-travel-package .detailed-price.package-detail-lg.tour-information:nth-child(4) ul.nav.nav-tabs li a {
+    padding: 9px 39px;
+}
+
+
+.single-travel-package .weather-data p{
+padding: 0 10px 14px 10px;
+}
+
+.single-travel-package .weather-data.accommodation-list.tab-content {
+    padding-bottom: 44px;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+.single-travel-package .package-detail {
+    margin-top: 80px;
+}
+	.package-section-price {
+    width: 100%;
+}
+	.ajax-section-product .col {
+    width: 100% !important;
+}
+	
+	
+	
+	
+}
+
+
+
+@media only screen and (max-width: 968px) {
+
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 567px) {
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ajax-section-product .div_btns {
+    display: none;
+}
+.ajax-section-product .col {
+    margin: 15px;
+    width: 30%;
+}
+.ajax-section-product .ratingz {
+    color: #FEC830;
+}
+/* .ajax-section-product .packages-section {
+    height: 330px;
+} */
+.ajax-section-product .package-sec-text h4 {
+    padding: 2px 0;
+	font-weight:600;
+}
+.ajax-section-product .package-sec-text .package-price h6 {
+    text-decoration: line-through;
+    color: #f27c00;
+}
+.ajax-section-product  .package-sec-text span {
+    text-transform: uppercase;
+}
+/* .term-shimla article.post {
+    width: 31%;
+    margin: 20px;
+}
+.term-shimla .page-content {
+    display: flex;
+}
+.term-shimla p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 20px;
+} */
+.single-travel-package .includes {
+    margin-top: 10px;
+}
+.single-travel-package .includes .fa {
+    font-size: 14px;
+}
+.single-travel-package h3 {
+    font-size: 20px !important;
+}
+.single-travel-package .sticky li {
+    margin: 0 4px 0 0;
+}
+.single-travel-package .inlusions ul {
+    margin: 0px 0 0!important;
+}
+
+
+
+
+
+
+.detailed-price.package-detail-lg.upgrades.weather-info .collapse:not(.show) {
+    display: none;
+}
+.collapse:not(.show) {
+    display: block !important;
+}
+.detailed-price.package-detail-lg.upgrades.weather-info .collapse:not(.show) {
+    display: none !important;
+}
+.flex-accordian .collapse:not(.show) {
+    display: none !important;
+}
+.flex-accordian .accordion-item {
+    background-color: #fff;
+    border: none !important;
+}
+.flex-accordian {
+    margin: 0px !important;
+}
+.single-travel-package .tab-content {
+    margin-top: 11px;
+}
+.single-travel-package .nav-tabs {
+    border-bottom: none;
+}
+
+.package-sec-text h6 {
+    margin: 0;
+    padding: 0px !important;
+}
+.package-price h6 {
+    font-size: 13px;
+    margin-left: 10px !important;
+    margin-top: 0px !important;
+}
+
+
+
+
+
+.page-id-7  .all-packages-wrapper {
+    justify-content: center;
+}
+.page-id-23 .all-packages-wrapper .col {
+    width: 31.5%;
+}
+.package-price h4 {
+    font-size: 12px !important;
+}
+.single-travel-package div#section3 {
+    padding: 0;
+}
+.tax-location .package-price h6 {
+    margin-top: 11.5px !important;
+}
+.all-packages-wrapper .col {
+    margin: 10px 20px 10px 0px !important;
+}
+.tax-location .header {
+    margin-bottom: 10px;
+}
+.single-travel-package .bg-primary {
+    background-color: #1c75bb!important;
+}
+
+.single-travel-package .accommodation-list.inlusions-data, .accommodation-list.exlusions-data ul {
+    padding-left: 0;
+}
+.page-id-7  .wpcf7 form .wpcf7-response-output {
+    color: #fff !important;
+}
+body .single-travel-package [type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+    background-color: transparent;
+    color: #000 !important;
+}
+.package-sec-text a {
+    color: #000;
+}
+.accommodation-list.inlusions-data ._inclusion_editor {
+    padding: 0 0px 0 25px;
+}
+.accommodation-list.inlusions-data ._inclusion_editor ul {
+    padding: 0;
+}
+.wpcf7-not-valid-tip {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+.single-travel-package .accommodation-list.inlusions-data, .accommodation-list.exlusions-data {
+    padding: 5px 30px;
+}
+.accommodation-list.inlusions-data ._inclusion_editor {
+    padding: 0px;
+}
+/* .single-travel-package .inlusions li {
+    list-style: circle !important;
+} */
+
+
+
+.accordion-button::after {
+    content: ">" !important;
+  background-image: none !important;
+    color: #fff !important;
+    transform: rotate(90deg);
+}
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(-273deg);
+	z-index:9;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: none !important;
+}
+.single-travel-package button.btn.d-block:hover {
+    background: transparent;
+    color: #000 !important;
+}
+.package-sec-text button.view_btn_arch:hover {
+    color: #1c75bb !important;
+}
+button.view_btn_arch:focus {
+    color: #1c75bb !important;
+    border: 1px solid #1c75bb !important;
+    outline: 0 !important;
+}
+.package-sec-textabc {
+    display: flex;
+}
+.package-sec-textabc a {
+    width: 50%;
+}
+.tax-location .packages-section {
+    margin: 40px 0px;
+}
+
+
+
+
+.wrap_load {
+    background: transparent !important;
+}
+.wrap_load  h2 {
+    display: none;
+}
+
+.wrap_load .loader {
+    padding: 20px !important;
+    border: 3px solid #ddd !important;;
+    box-shadow: 0 0 5px 1px #ddd !important;;
+    border-right-color: #00aeff !important;
+    left: 50% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.single-travel-package .package-image {
+    width: 100%;
+    height: 400px !important;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.single-travel-package .carousel-container {
+    display: none
+}
+.single-travel-package  img.attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.package-sec-text button.view_btn_arch {
+    font-size: 11px;
+    width: auto;
+    padding: 3px 5px;
+    border-radius: 3px;
+    float: right;
+    margin: 0;
+}
+
+.packages-sectionpackage {
+    position: relative;
+}
+.page-id-7 .wrap_load {
+    display: none;
+}
+.flex-accordian .accordion-button:not(.collapsed) {
+    color: #ffffff !important;
+    background-color: #1c75bb !important;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+.flex-accordian [type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+    background-color: #1c75bb !important;
+}
+.flex-accordian  [type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+    background-color: #1c75bb !important;
+    color: #fff !important;
+}
+
+
+
+
+
+
+[type=button]:focus, [type=button]:hover, [type=submit]:focus, [type=submit]:hover, button:focus, button:hover {
+    background-color: transparent !important;
+    color: #000 !important;
+}

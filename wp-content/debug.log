@@ -19,3 +19,83 @@ Stack trace:
   thrown in C:\xampp\htdocs\wordpress\wp-content\plugins\custom-plugin\custom-plugin.php on line 19
 [24-Apr-2026 11:09:50 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "edit_item", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\plugins\custom-plugin\custom-plugin.php on line 20
 [24-Apr-2026 11:10:39 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "", expecting ")" in C:\xampp\htdocs\wordpress\wp-content\plugins\custom-plugin\custom-plugin.php on line 22
+[01-May-2026 04:16:23 UTC] PHP Warning:  wp_version_check(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/functions.php on line 6131
+[01-May-2026 04:16:29 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/functions.php on line 6131
+[01-May-2026 04:16:35 UTC] PHP Warning:  wp_update_themes(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/functions.php on line 6131
+[01-May-2026 04:37:03 UTC] PHP Warning:  wp_update_plugins(): An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /var/www/html/wordpress/wp-includes/functions.php on line 6131
+[01-May-2026 05:54:21 UTC] Automatic updates starting...
+[01-May-2026 05:54:22 UTC]   Automatic plugin updates starting...
+[01-May-2026 05:54:22 UTC]   Automatic plugin updates complete.
+[01-May-2026 05:54:23 UTC] Automatic updates complete.
+[01-May-2026 06:51:49 UTC] PHP Warning:  Undefined variable $wpdb in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 738
+[01-May-2026 06:51:49 UTC] PHP Warning:  Attempt to read property "prefix" on null in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 738
+[01-May-2026 06:51:49 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 06:59:14 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 06:59:17 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 06:59:30 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 06:59:34 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 06:59:50 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 07:04:35 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 07:04:41 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 07:04:41 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:34:25 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:34:31 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:45:42 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:45:43 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:45:44 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:45:45 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:45:58 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:45:59 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:00 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:00 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:01 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:01 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:01 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:02 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:02 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:03 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 08:46:03 UTC] PHP Warning:  Undefined array key "taxonomy" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1188
+[01-May-2026 09:25:36 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:27:37 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:29:38 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:31:39 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:33:40 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:35:41 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:37:42 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:39:43 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:41:44 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:43:45 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:45:46 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:47:47 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:49:48 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:49:52 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:50:05 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:54:52 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:54:56 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:55:20 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:55:20 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:57:56 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:57:58 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:57:59 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:00 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:00 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:04 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:04 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:05 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:21 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:21 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 09:58:24 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:07:13 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:07:16 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:07:17 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:07:17 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:07:18 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:07:18 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:10:31 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:10:31 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:10:32 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:10:32 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:10:32 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:10:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:10:33 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192
+[01-May-2026 10:12:05 UTC] PHP Parse error:  syntax error, unexpected token "}" in /opt/lampp/htdocs/wordpress/wp-content/plugins/Travel_plugin_new/Travel-plugin.php on line 1192

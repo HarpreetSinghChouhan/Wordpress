@@ -1,0 +1,710 @@
+    /* kd class css 10/10/2024 */
+   
+section.inter_testimonial_section {
+    margin-bottom: 58px;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel .owl-stage-outer .owl-stage {
+    display: flex;
+}
+.dubai_packages_section .packages-section-tem {
+    border-radius: 0;
+    box-shadow: 0px 4px 16px 0px #0000001F;
+}
+
+.dubai_packages_section .all-packages-wrapper {
+    gap: 30px;
+}
+
+.dubai_packages_section .packages-section-inner-item img {
+    border-radius: 0;
+}
+.dubai_packages_section .image-section-division {
+text-align:right;
+}
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_cont h5 {
+    font-family: Poppins;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_cont h6 {
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 31px;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_card .card-body {
+    padding: 29px 28px 38px 53px !important;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_card {
+    box-shadow: 0px 4px 16px 0px #00000014;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_card .user_name {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #EC3230;
+	text-transform:capitalize;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .user_profession {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+	text-transform:capitalize;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_card p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 0 !important;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_card .travel_date {
+    color: #EC3230;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .review_card .user_header {
+    margin-bottom: 18px;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .card.review_card {
+    position: relative;
+	border:unset;
+	min-height:234px;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .card.review_card:before {
+    content: '';
+    position: absolute;
+    height: 172px;
+    width: 5px;
+    left: 3px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #EC3230;
+    border-radius: 8px;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .card.review_card:after {
+    content: '';
+    position: absolute;
+    height: 16px;
+    width: 21px;
+    left: 10px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url('/wp-content/uploads/2024/10/tiangle.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+
+.inter_testimonial_section .user_image {
+    max-width: 50px !important;
+    width: 50px !important;
+    height: 50px!important;
+    max-height: 100%!important;
+}
+
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .owl-item.active {
+    background: unset;
+}
+
+.inter_testimonial_section .reviews_card_container.owl-carousel-kd .star_rating_container i {
+    color: #FBD433;
+    font-size: 15px;
+    margin-right: 6px;
+}
+
+    .banner_section {
+        background-image: url('https://travelduniyaa.com/wp-content/uploads/2024/10/famous-dubai-scaled.webp');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+
+    .container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+.banner_mainContainer .container h1 {
+    font-family: Poppins;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 135px;
+}
+
+    .banner_mainContainer {
+        width: 100%;
+        height: 100%;
+        background-color: #0000008C;
+        color: #fff;
+        padding: 54px 0 80px;
+    }
+
+    .bcontnet_box h1 {
+        font-size: 90px;
+        font-weight: 700;
+        line-height: 87px;
+        margin-bottom: 60px;
+    }
+
+  .bcontnet_box p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 28px;
+    padding: 9px 64px 8px 40px;
+    width: fit-content;
+    background-color: #EC3230;
+    clip-path: polygon(100% 0, 0 0, 0 calc(0% - 0px), 15px calc(50% - 0px / 2), 0px 100%, 100% calc(100% - 0px), 100% calc(100% - 0px), calc(100% - 15px) calc(50% - 0px / 2));
+    margin-top: 60px;
+    margin-bottom: 73px;
+}
+
+    .get_started_btn,
+    .seeall_tripbtnCont .kdseeall, .viewall_btn, .loadmore_btn {
+        
+		background-color: #ED3236;
+        color: #fff;
+        border: 1px solid #ED3236;
+        padding: 10px 39px !important;
+        border-radius: 30px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 27px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .seeall_tripbtnCont .kdseeall{
+            width: fit-content;
+    }
+    .get_started_btn:after,
+    .get_started_btn:before, .viewall_btn:after, .viewall_btn:before {
+        position: absolute;
+        content: '';
+        top: 8px;
+        right: 13px;
+        height: 7px;
+        width: 7px;
+        outline: 2.8px solid #fff;
+        border-radius: 50%;
+    }
+.get_started_btn:after, .viewall_btn:after {
+    left: 14px;
+    top: 31px;
+}
+
+    .get_started_btn:before, .viewall_btn:before, {
+        left: 14px;
+        bottom: 9px;
+        top: unset;
+    }
+    .viewall_destinationCont {
+        display: none;
+    }
+    .seeall_tripbtnCont .kdseeall:after,
+    .seeall_tripbtnCont .kdseeall:before, .loadmore_btn:after, .loadmore_btn:before {
+        position: absolute;
+        content: '';
+        bottom: 8px;
+        right: 13px;
+        height: 7px;
+        width: 7px;
+        outline: 2.8px solid #fff;
+        border-radius: 50%;
+    }
+
+    .seeall_tripbtnCont .kdseeall:before, .loadmore_btn:before {
+        left: 14px;
+        bottom: unset;
+		top:10px;
+    }
+.load_btnCont{
+			margin-top:35px;
+		}
+
+.load_btnCont .loadmore_btn {
+    margin-left: auto;
+}
+
+/*     .bannner_content {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+    } */
+
+    .banner_mainContainer .container {
+        height: 100%;
+    }
+
+    /* popular destination section start */
+    .popular_destinationSection {
+        padding: 48px 0 58px;
+    }
+
+    .heading_section {
+        margin-bottom: 40px;
+    }
+
+    .heading_section h2 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 50.4px;
+    }
+
+    .heading_section p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22.4px;
+        color: #333333;
+        margin-top: 7px;
+    }
+
+    .destination_cardsContainer {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .destination_Card {
+    
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        flex: 1 1 0%;
+        height: 523px;
+        border-radius: 10px;
+        max-height: 100%;
+        width: 100%;
+        overflow: hidden;
+        transition: all ease-in-out .3s;
+    }
+
+    .destination_Card:hover {
+        flex: 2 1 0%;
+        transition: all ease-in-out .3s;
+    }
+
+    .destination_content_box>div {
+        display: none;
+    }
+
+    .destination_Card:hover .destination_content_box .seeall_tripbtnCont {
+        display: block;
+    }
+
+    .destination_Card:hover .destination_content_box .title_cont {
+        display: flex;
+    }
+
+    .seeall_tripbtnCont .kdseeall {
+        margin-left: auto;
+    }
+
+    .title_cont {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #fff;
+    }
+
+    .title_cont h3 {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 42px;
+    }
+
+    .destination_content_box {
+        min-width: 500px;
+        padding: 52px 30px 33px 26px;
+        background-color: #00000059;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .all-packages-wrapper {
+        gap: 20px;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+
+	/*     .packages-section-tem {
+			border: 1px solid #EBEBEB;
+			box-shadow: 0px 1px 3px #0000000D;
+			height: 100%;
+			background: #fff;
+		}
+
+		.packages-section-inner-item {
+			display: flex;
+			position: relative;
+			overflow: hidden;
+			gap: 22px;
+			flex-direction: row-reverse;
+		}
+
+		.packages-section-inner-item img {
+			height: 100%;
+			width: 370px;
+			max-width: 370px;
+			object-fit: cover;
+		}
+
+		.package-sec-text {
+			padding: 21px 0px 22px 20px !important;
+		}
+
+		.package-sec-text a {
+			text-decoration: none;
+		}
+
+		.package-sec-text h4 {
+			margin: 0;
+			font-family: var(--e-global-typography-primary-font-family), Sans-serif;
+			font-size: 22px;
+			font-weight: 500;
+			margin-bottom: 10px;
+			color: #ec3230;
+			line-height: 33px;
+		}
+
+		.package-sec-text p {
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 23px;
+			color: #222222;
+			margin-bottom: 12px;
+		}
+
+		.package-sec-text h6 {
+			margin: 0;
+			padding: 0 0 5px 0;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 22px;
+			color: #ec3230;
+		} */
+.dubai_packages_section .main_packagesContianer {
+    padding: 0;
+}
+    .dubai_packages_section .main_packagesContianer .packages-section-tem .package-inner-includes {
+        display: flex;
+        align-items: center;
+        gap: 27px;
+        padding: 27px 0 12px;
+        font-size: 11px;
+        line-height: 15px;
+        font-weight: 500;
+        list-style: none;
+        text-align: center;
+    }
+
+    .dubai_packages_section ul.package-inner-includes img {
+        display: block;
+        width: 30px;
+        height: 20px;
+        object-fit: contain;
+        margin: 0 auto 2px;
+    }
+
+    .dubai_packages_section .package-price {
+        padding: 0 0 5px;
+    }
+
+    .dubai_packages_section .package-price h6 strong {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+    }
+
+    .dubai_packages_section .main_packagesContianer .packages-section-tem .package-price h6 strong span {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+
+    .dubai_packages_section .package-sec-textabc {
+        margin-top: 24px;
+    }
+
+    .dubai_packages_section .package-sec-textabc a button {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #ec3230;
+        border: 1px solid #ec3230;
+        padding: 6px 20px;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .dubai_packages_section .dubai_packages_section {
+        padding: 0 0 50px;
+    }
+
+
+    /* review section css start */
+    .inter_testimonial_section .user_image {
+        border-radius: 50%;
+        object-fit: cover;
+    }
+
+    .inter_testimonial_section .user_header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .inter_testimonial_section .user_data {
+        display: flex;
+        gap: 13px;
+        align-items: center;
+    }
+
+    .inter_testimonial_section .user_data .d-flex.flex-column.ml-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inter_testimonial_section .card.review_card {
+        position: relative;
+        border: unset;
+        max-width: 100%;
+    }
+
+    .reviews_card_container.owl-carousel .owl-stage-outer {
+        overflow-x: hidden;
+        overflow-y: unset;
+        padding: 15px 0;
+    }
+
+
+    .inter_testimonial_section .owl-carousel .owl-dots.disabled,
+    .inter_testimonial_section .owl-dots {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+		margin-top:29px;
+    }
+
+    .inter_testimonial_section button.owl-dot.active span {
+        border: 1px solid #EC3230;
+        background-color: #EC3230 !important;
+        /* padding: 2px; */
+        margin: 0 !important;
+    }
+
+    .inter_testimonial_section button.owl-dot.active {
+        border: 1px solid #EC3230;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding: 4px !important;
+    }
+
+    .inter_testimonial_section button.owl-dot span {
+    border: 1px solid #DFDFDF;
+    background-color: #DFDFDF !important;
+    /* padding: 2px; */
+    margin: 0 !important;
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+    .inter_testimonial_section button.owl-dot {
+        border: 1px solid #DFDFDF;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding: 4px !important;
+    }
+.dubai_packages_section .packages-section-inner-item .image-section-division {
+    order: 2;
+}
+.dubai_packages_section .packages-section-inner-item .package-sec-text {
+        padding: 21px 0px 22px 20px !important;
+}
+
+
+@media (max-width:1440px) {
+	.padding_15 {
+    padding: 0 15px;
+}
+}
+
+    @media (max-width:1300px) {
+        .destination_content_box {
+            min-width: 300px;
+        }
+    }
+
+    @media (max-width:1024px) {
+        .star_rating_container {
+            display: none;
+        }
+    }
+    @media(max-width:900px) and (min-width:768px){
+        .title_cont h3 {
+            font-size: 24px;
+            line-height: 31px;
+        }
+    }
+
+    @media(max-width:767px) {
+
+.dubai_packages_section .packages-section-inner-item .package-sec-text {
+    padding: 15px 0px 10px 5px !important;
+}
+		.dubai_packages_section .main_packagesContianer {
+    padding: 0;
+}
+		.main_packagesContianer .packages-section-tem{
+			border-radius:8px;
+		}
+		.inter_testimonial_section {
+			padding-bottom: 40px;
+			margin-bottom:0;
+		}
+        .destination_cardsContainer {
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        .destination_content_box {
+            min-width: 300px;
+            padding: 27px 18px 16px 23px;
+            height: 138px;
+        }
+
+        .destination_Card:hover .destination_content_box {
+            height: 272px;
+        }
+
+        .destination_Card:hover {
+            min-height: 272px;
+        }
+
+        .all-packages-wrapper {
+            grid-template-columns: 1fr;
+        }
+
+        .bcontnet_box h1 {
+            font-size: 30px;
+            font-weight: 600;
+            line-height: 45px;
+            margin-bottom: 29px;
+        }
+
+        .bcontnet_box p {
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 28px;
+            padding: 9px 19px 8px 25px;
+			margin:0 auto;
+        }
+
+        .get_started_btn,
+        .destination_content_box .seeall_tripbtnCont,
+        .destination_content_box .seeall_tripbtnCont .kdseeall {
+            display: none !important;
+        }
+
+        .banner_section {
+            height: 251px;
+        }
+
+        .bannner_content {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .heading_section h2 {
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 39px;
+        }
+
+        .heading_section p {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22.4px;
+        }
+
+        .title_cont h3 {
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 38px;
+        }
+
+        /* .destination_content_box .title_cont{
+            display: block;
+        } */
+        .destination_Card:hover .destination_content_box .title_cont,
+        .destination_content_box .title_cont {
+            display: block;
+            height: 100%;
+        }
+
+        .destination_Card .destination_content_box .title_cont a {
+            display: block;
+            text-align: right;
+        }
+
+        .destination_Card .destination_content_box .title_cont h3 {
+            margin-bottom: 134px;
+        }
+
+        .inter_testimonial_section .review_card .card-body {
+            padding: 22px 22px 22px 26px !important;
+        }
+
+        .review_card p {
+            text-align: justify;
+        }
+        .heading_section {
+            margin-bottom: 20px;
+        }
+        .reviews_card_container{
+            margin: 0;
+        }
+        .viewall_btn{
+            display: flex;
+            margin: 35px auto 0;
+        }
+        .popular_destinationSection, .dubai_packages_section{
+            padding: 30px 0;
+        }
+		.load_btnCont .loadmore_btn {
+    margin:0 auto;
+}
+    }
