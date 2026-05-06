@@ -1,5 +1,5 @@
 <?php   
-wp_enqueue_style('custom-template456-css', path1. "assets/css/backend.css");
+wp_enqueue_style('custom-template456-css', path1 . "assets/css/backend.css");
 // wp_enqueue_style(
 //     'custom-template456-css',
 //     plugins_url('assets/css/backend.css', __FILE__)
