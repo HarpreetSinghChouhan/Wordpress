@@ -119,9 +119,9 @@ p {
     display: block;
 }
 
+
 .qtable{
-    width: 100%;
-    max-width: 100%;
+    width: 100% ;
     margin-bottom: 20px;
 }
 .qtable>tbody>tr>td, .qtable>tbody>tr>th, .qtable>tfoot>tr>td, .qtable>tfoot>tr>th, .qtable>thead>tr>td, .qtable>thead>tr>th {
@@ -129,7 +129,8 @@ p {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-}
+}   
+
 
 .table_r {
     min-height: .01%;

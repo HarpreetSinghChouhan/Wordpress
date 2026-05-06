@@ -1,0 +1,31 @@
+/* .form_group{
+    margin-bottom: 15px;
+}
+
+table, tr,th {
+width: 100%;
+border:1px solid black 
+};
+
+.table_r {
+    min-height: .01%;
+    overflow-x: auto;
+}
+.qtable{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.qtable>tbody>tr>td, .qtable>tbody>tr>th, .qtable>tfoot>tr>td, .qtable>tfoot>tr>th, .qtable>thead>tr>td, .qtable>thead>tr>th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+}    */
+
+#tabs{
+    background-color: red;
+    box-shadow: 0px 0px 10px black;
+
+
+}

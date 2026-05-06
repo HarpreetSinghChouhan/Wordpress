@@ -9,8 +9,7 @@
  * The wp-config.php creation script uses this file during the installation.
  * You don't have to use the website, you can copy this file to "wp-config.php"
  * and fill in the values.
- *
- * This file contains the following configurations:
+ * * This file contains the following configurations:
  *
  * * Database settings
  * * Secret keys
@@ -28,9 +27,9 @@
 
 
 define( 'DB_NAME', 'wordpress' );
-define( 'DB_USER', 'wpuser' );
-define( 'DB_PASSWORD', 'password123' );
-define('DB_HOST', '127.0.0.1');
+define( 'DB_USER', 'root' );
+define( 'DB_PASSWORD', '' );
+define('DB_HOST', 'localhost');
 //define( 'DB_HOST', 'localhost' );
 define( 'DB_CHARSET', 'utf8mb4' );
 define( 'DB_COLLATE', '' );

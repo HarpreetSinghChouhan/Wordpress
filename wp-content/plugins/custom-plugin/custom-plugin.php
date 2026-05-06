@@ -101,8 +101,24 @@ function create_travel_post_type()
         'menu_name' => _('ShortCode'),
     ));
 }
+// add_action('admin_enqueue_scripts', 'ecs_custom_admin_style');
+
+// function ecs_custom_admin_style() {
+
+//     wp_enqueue_style(
+//         'custom-template456-css',
+//         plugin_dir_url(__FILE__) . 'assets/css/backend.css',
+//         array(),
+//         time()
+//     );
+
+// }
 add_action('init', 'create_travel_post_type');
 add_action('admin_menu', 'ecs_travel_setting_page_travel');
+add_action('add_meta_boxes','ecs_travel_1_package_meta_box');
+function ecs_travel_1_package_meta_box(){
+     add_meta_box('my-fist-post', 'package- field','ecs_travel_1_meta_box','travel','normal','high' );
+};
 function ecs_travel_setting_page_travel()
 {
     add_submenu_page('edit.php?post_type=travel', 'Travel package Example', 'ShortCode', 'manage_options', 'travel_ShortCode_setting', 'ecs_travel_setting_page_travel_html');
@@ -142,8 +158,11 @@ function ecs_travel_setting_page_travel_html()
     </div>
     <table class="table-setting">
         <thead>
+            <?php
+            //  wp_editor();
+            ?>
             <tr>
-                <th class="table-setting-th">ShortCde Type</th>
+                <th class="table-setting-th">ShortCode Type</th>
                 <th class="table-setting-th">All Package </th>
                 <th class="table-setting-th"> Package by Category(slug)</th>
                 <th class="table-setting-th">packages by Location(slug)</th>
@@ -171,32 +190,7 @@ function ecs_travel_setting_page_travel_html()
 };
 function ecs_travel_queries_table_html()
 {
-?>
-    <style>
-        th {
-            border: 1px solid black;
-        }
-
-        .table-setting {
-            width: 95%;
-        }
-    </style>
-    <div>
-        <table class="table-setting">
-            <thead>
-                <tr>
-                    <th>Id </th>
-                    <th> Name</th>
-                    <th>Email</th>
-                    <th>Message </th>
-                    <th> Create Time</th>
-                    <th> Action</th>
-                </tr>
-            </thead>
-        </table>
-    </div>
-
-<?php
+ return include plugin_dir_path(__FILE__) . "/meta-box/queriestable.php";
 }
 function travel_general_setting_table_html()
 {
@@ -245,6 +239,10 @@ function travel_general_setting_table_html()
     </div>   -->
 <?php
 
+}
+function ecs_travel_1_meta_box($post){
+    return include  plugin_dir_path(__FILE__) . 'meta-box/travel-feature.php';
+       
 }
 //  
 ?>
