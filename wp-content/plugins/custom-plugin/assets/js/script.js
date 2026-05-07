@@ -256,7 +256,7 @@ var repeatable_field = {
         });
     },
     addImageUploader: function () {
-        jQuery(document).on('click', '.ask-upload_image_button', function (event) {t) {t) {
+        jQuery(document).on('click', '.ask-upload_image_button', function (event) {
             event.preventDefault();
             jQuery(this).closest('.ask-repeater-logo-wrapper').find('.ask-logo').val('');
             jQuery(this).closest('.ask-repeater-logo-wrapper').find('.ask-upload_image_button').show();
