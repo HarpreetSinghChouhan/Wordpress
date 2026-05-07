@@ -1,108 +1,108 @@
-$( function() {
-    $( "#tabs" ).tabs();
-  } );
+$(function () {
+    $("#tabs").tabs();
+});
 
 
-jQuery(document).ready(function($) {
-    
-            // Delegated event binding for dynamically added rows
-            $('#reviews-repeater').on('click', '.upload_image_button', function(e) {
-                e.preventDefault();
-                var button = $(this);
-                var custom_uploader = wp.media({
-                    title: 'Select Image',
-                    button: { text: 'Use this image' },
-                    multiple: false
-                }).on('select', function() {
-                    var attachment = custom_uploader.state().get('selection').first().toJSON();
-                    button.siblings('.image-preview').attr('src', attachment.url).show(); // Show preview
-                    button.siblings('input[type="hidden"]').val(attachment.id);
-                    button.hide(); // Hide the upload button
-                    button.siblings('.remove_image_button').show(); // Show the remove button
-                }).open();
-            });
+jQuery(document).ready(function ($) {
 
-            $('#reviews-repeater').on('click', '.remove_image_button', function(e) {
-                e.preventDefault();
-                var button = $(this);
-                button.siblings('input[type="hidden"]').val('');
-                button.siblings('.image-preview').attr('src', '').hide();
-                button.hide(); // Hide remove button
-                button.siblings('.upload_image_button').show(); // Show upload button
-            });
+    // Delegated event binding for dynamically added rows
+    $('#reviews-repeater').on('click', '.upload_image_button', function (e) {
+        e.preventDefault();
+        var button = $(this);
+        var custom_uploader = wp.media({
+            title: 'Select Image',
+            button: { text: 'Use this image' },
+            multiple: false
+        }).on('select', function () {
+            var attachment = custom_uploader.state().get('selection').first().toJSON();
+            button.siblings('.image-preview').attr('src', attachment.url).show(); // Show preview
+            button.siblings('input[type="hidden"]').val(attachment.id);
+            button.hide(); // Hide the upload button
+            button.siblings('.remove_image_button').show(); // Show the remove button
+        }).open();
+    });
 
-            // Add new row with updated logic for image upload/reset
-                $('#add_row_review').on('click', function() {
-                  
-                    var lastRow = $('#reviews-repeater tbody tr:last').clone();
-                    var rowCount = $('#reviews-repeater tbody tr').length;
-                    lastRow.find('input, textarea').val('');
-                    lastRow.find('input, textarea').each(function() {
-                        var name = $(this).attr('name');
-                        $(this).attr('name', name.replace(/\[\d+\]/, '[' + rowCount + ']'));
-                    });
-                    lastRow.find('.image-preview').attr('src', '').hide();
-                    lastRow.find('input[type="hidden"]').val('');
-                    lastRow.find('.upload_image_button').show();
-                    lastRow.find('.remove_image_button').hide();
-                    $('#reviews-repeater tbody').append(lastRow);
-                });
-                
-                // Remove row
-            $('#reviews-repeater').on('click', '.remove_row_review', function() {
-                $(this).closest('tr').remove();
-            });
+    $('#reviews-repeater').on('click', '.remove_image_button', function (e) {
+        e.preventDefault();
+        var button = $(this);
+        button.siblings('input[type="hidden"]').val('');
+        button.siblings('.image-preview').attr('src', '').hide();
+        button.hide(); // Hide remove button
+        button.siblings('.upload_image_button').show(); // Show upload button
+    });
 
+    // Add new row with updated logic for image upload/reset
+    $('#add_row_review').on('click', function () {
 
-
-
-       
-
-
-        //QUESTIONS CLONE ROW
-        $(document).on('click', '#question-add-row', function() {
-            var clone = $('.question-empty-row').clone(true);
-            clone.removeClass('question-empty-row question-custom-repeter-text').css('display', 'table-row');
-            clone.insertBefore('#question-repeatable-fieldset-one tbody>tr:last');
-            return false;
+        var lastRow = $('#reviews-repeater tbody tr:last').clone();
+        var rowCount = $('#reviews-repeater tbody tr').length;
+        lastRow.find('input, textarea').val('');
+        lastRow.find('input, textarea').each(function () {
+            var name = $(this).attr('name');
+            $(this).attr('name', name.replace(/\[\d+\]/, '[' + rowCount + ']'));
         });
-        $('.question-remove-row').on('click', function() {
-            $(this).parents('tr').remove();
-            return false;
-        });
-        //Distance between Cities Clone row
-        $(document).on('click', '#distance-add-row', function() {
-            var clone_R = $('.distance-empty-row').clone(true);
-            clone_R.removeClass('distance-empty-row distance-custom-repeter-text').css('display', 'table-row');
-            clone_R.insertBefore('#road_distance tbody>tr:last');
-            return false;
-        });
-        $('.distance-remove-row').on('click', function() {
-            $(this).parents('tr').remove();
-            return false;
-        });
+        lastRow.find('.image-preview').attr('src', '').hide();
+        lastRow.find('input[type="hidden"]').val('');
+        lastRow.find('.upload_image_button').show();
+        lastRow.find('.remove_image_button').hide();
+        $('#reviews-repeater tbody').append(lastRow);
+    });
 
-//MULTIPLE IMAGES UPLOADER
-    $('body').on('click', '.wc_multi_upload_image_button', function(e) {
+    // Remove row
+    $('#reviews-repeater').on('click', '.remove_row_review', function () {
+        $(this).closest('tr').remove();
+    });
+
+
+
+
+
+
+
+    //QUESTIONS CLONE ROW
+    $(document).on('click', '#question-add-row', function () {
+        var clone = $('.question-empty-row').clone(true);
+        clone.removeClass('question-empty-row question-custom-repeter-text').css('display', 'table-row');
+        clone.insertBefore('#question-repeatable-fieldset-one tbody>tr:last');
+        return false;
+    });
+    $(document).on('click', '.question-remove-row', function () {
+        $(this).parents('tr').remove();
+        return false;
+    });
+    //Distance between Cities Clone row
+    $(document).on('click', '#distance-add-row', function () {
+        var clone_R = $('.distance-empty-row').clone(true);
+        clone_R.removeClass('distance-empty-row distance-custom-repeter-text').css('display', 'table-row');
+        clone_R.insertBefore('#road_distance tbody>tr:last');
+        return false;
+    });
+    $(document).on('click', '.distance-remove-row', function () {
+        $(this).parents('tr').remove();
+        return false;
+    });
+
+    //MULTIPLE IMAGES UPLOADER
+    $('body').on('click', '.wc_multi_upload_image_button', function (e) {
         e.preventDefault();
         var button = $(this),
             custom_uploader = wp.media({
                 title: 'Insert image',
                 button: { text: 'Use this image' },
                 multiple: 'add'
-            }).on('select', function() {
+            }).on('select', function () {
                 var attech_ids = '';
-           
+
                 var attachments = custom_uploader.state().get('selection'),
                     attachment_ids = new Array(),
                     i = 0;
-                attachments.each(function(attachment) {
+                attachments.each(function (attachment) {
                     attachment_ids[i] = attachment['id'];
                     attech_ids += ',' + attachment['id'];
                     if (attachment.attributes.type == 'image') {
                         $(button).siblings('ul').append('<li data-attechment-id="' +
                             attachment['id'] + '"><a href="' + attachment.attributes
-                            .url +
+                                .url +
                             '" target="_blank"><img class="true_pre_image" src="' +
                             attachment.attributes.url +
                             '" /></a><i class=" dashicons dashicons-no delete-img"></i></li>'
@@ -110,7 +110,7 @@ jQuery(document).ready(function($) {
                     } else {
                         $(button).siblings('ul').append('<li data-attechment-id="' +
                             attachment['id'] + '"><a href="' + attachment.attributes
-                            .url +
+                                .url +
                             '" target="_blank"><img class="true_pre_image" src="' +
                             attachment.attributes.icon +
                             '" /></a><i class=" dashicons dashicons-no delete-img"></i></li>'
@@ -127,16 +127,16 @@ jQuery(document).ready(function($) {
                 }
                 $(button).siblings('.wc_multi_remove_image_button').show();
             })
-            .open();
+                .open();
     });
 
-    $('body').on('click', '.wc_multi_remove_image_button', function() {
+    $('body').on('click', '.wc_multi_remove_image_button', function () {
         $(this).hide().prev().val('').prev().addClass('button').html('Add Media');
         $(this).parent().find('ul').empty();
         return false;
     });
 
-    $('body').on('click', '.wc_multi_upload_image_button_tour_info', function(e) {
+    $('body').on('click', '.wc_multi_upload_image_button_tour_info', function (e) {
         e.preventDefault();
         var btn = $(this),
             custom_uploader = wp.media({
@@ -145,19 +145,19 @@ jQuery(document).ready(function($) {
                     text: 'Use this image'
                 },
                 multiple: true
-            }).on('select', function() {
+            }).on('select', function () {
                 var attech_id = '';
                 attachment
                 var attachment = custom_uploader.state().get('selection'),
                     attachment_id = new Array(),
                     i = 0;
-                attachment.each(function(attachment) {
+                attachment.each(function (attachment) {
                     attachment_id[i] = attachment['id'];
                     attech_id += ',' + attachment['id'];
                     if (attachment.attributes.type == 'image') {
                         $(btn).siblings('ul').append('<li data-attechment-id="' +
                             attachment['id'] + '"><a href="' + attachment.attributes
-                            .url +
+                                .url +
                             '" target="_blank"><img class="true_pre_image" src="' +
                             attachment.attributes.url +
                             '" /></a><i class=" dashicons dashicons-no delete-img"></i></li>'
@@ -165,12 +165,12 @@ jQuery(document).ready(function($) {
                     } else {
                         $(btn).siblings('ul').append('<li data-attechment-id="' +
                             attachment['id'] + '"><a href="' + attachment.attributes
-                            .url +
+                                .url +
                             '" target="_blank"><img class="true_pre_image" src="' +
                             attachment.attributes.icon +
                             '" /></a><i class=" dashicons dashicons-no delete-img"></i></li>'
                         );
-                    }i++;
+                    } i++;
                 });
                 var idd = $(btn).siblings('.attechments-id').attr('value');
                 if (idd) {
@@ -181,25 +181,25 @@ jQuery(document).ready(function($) {
                 }
                 $(btn).siblings('.wc_multi_remove_image_button_tour_info').show();
             })
-            .open();
+                .open();
     });
-    $('body').on('click', '.wc_multi_remove_image_button_tour_info', function() {
+    $('body').on('click', '.wc_multi_remove_image_button_tour_info', function () {
         $(this).hide().prev().val('').prev().addClass('button').html('Add Media');
         $(this).parent().find('ul').empty();
         return false;
     });
-    jQuery(document).on('click', '.multi-upload-medias ul li i.delete-img', function() {
+    jQuery(document).on('click', '.multi-upload-medias ul li i.delete-img', function () {
         var ids = [];
         jQuery(this).parent().remove();
-        jQuery('.multi-upload-medias ul li').each(function() {
+        jQuery('.multi-upload-medias ul li').each(function () {
             ids.push(jQuery(this).attr('data-attechment-id'));
         });
         jQuery('.multi-upload-medias').find('input[type="hidden"]').attr('value', ids);
     });
-    jQuery(document).on('click', '.multi-upload-media ul li i.delete-img', function() {
+    jQuery(document).on('click', '.multi-upload-media ul li i.delete-img', function () {
         var ids = [];
         jQuery(this).parent().remove();
-        jQuery('.multi-upload-media ul li').each(function() {
+        jQuery('.multi-upload-media ul li').each(function () {
             ids.push(jQuery(this).attr('data-attechment-id'));
         });
         jQuery('.multi-upload-media').find('input[type="hidden"]').attr('value', ids);
@@ -229,18 +229,18 @@ function add_field_row() {
 
 //ITINARY REPETER
 var repeatable_field = {
-    init: function(){
+    init: function () {
         this.addRow();
         this.removeRow();
         this.addImageUploader();
         this.removeImage();
-         this.dragnDrop();
+        this.dragnDrop();
     },
-     dragnDrop: function(){
+    dragnDrop: function () {
         jQuery("#ask-sortable").sortable();
         jQuery("#ask-sortable").disableSelection();
     },
-    addRow: function(){
+    addRow: function () {
         jQuery(document).on('click', '#add-row', function (e) {
             e.preventDefault();
             var row = jQuery('.empty-row.screen-reader-text').clone(true);
@@ -249,16 +249,16 @@ var repeatable_field = {
             // return false;
         });
     },
-    removeRow: function(){
+    removeRow: function () {
         jQuery(document).on('click', '.remove-row', function () {
             jQuery(this).parents('tr').remove();
             return false;
         });
     },
-    addImageUploader: function(){
+    addImageUploader: function () {
         jQuery(document).on('click', '.ask-upload_image_button', function (event) {
             event.preventDefault();
-                button = jQuery(this),
+            button = jQuery(this),
                 file_frame = wp.media({
                 }).on('select', function () {
                     var attachment = file_frame.state().get('selection').first().toJSON();
@@ -266,10 +266,10 @@ var repeatable_field = {
                     button.closest('.ask-repeater-logo-wrapper').find('.ask-logo').val(attachment.id);
                     button.closest('.ask-repeater-logo-wrapper').find('.ask-logo').before('<div><img src="' + attachment_thumbnail.url + '" width="150px" height="150px" /></div>');
                     button.closest('.ask-repeater-logo-wrapper').find('.ask-remove_image_button').show();
-                    button.hide();  
+                    button.hide();
                 }).open();
         });
-    },removeImage: function(){
+    }, removeImage: function () {
         jQuery(document).on('click', '.ask-remove_image_button', function (event) {
             event.preventDefault();
             jQuery(this).closest('.ask-repeater-logo-wrapper').find('.ask-logo').val('');
@@ -280,9 +280,9 @@ var repeatable_field = {
     }
 };
 jQuery(document).ready(function ($) {
-   repeatable_field.init();
+    repeatable_field.init();
 });
 
-$( window ).load(function(){
-	//$('#content').remove('.container');
+$(window).load(function () {
+    //$('#content').remove('.container');
 });

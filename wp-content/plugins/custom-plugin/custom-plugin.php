@@ -115,7 +115,32 @@ function create_travel_post_type()
 // }
 add_action('init', 'create_travel_post_type');
 add_action('admin_menu', 'ecs_travel_setting_page_travel');
+
+add_action('admin_enqueue_scripts', 'ecs_travel_package_admin_script');
+function ecs_travel_package_admin_script($hook)
+{
+    wp_enqueue_script('jquery-admin', '//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', array('jquery'), '', true);
+    if ('travel' === get_post_type(@$_GET['post'])) {
+
+        wp_enqueue_script('jquery-admin', '//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', array('jquery'), '', true);
+        wp_enqueue_script('jquery_logic_ui-admin-js-admin',  '//code.jquery.com/ui/1.12.1/jquery-ui.js', array('jquery'), '', true);
+        wp_enqueue_script('script-admin-js', path1 . 'assets/js/script.js', array('jquery'), '', true);
+        wp_enqueue_style('style-jquery-admin-ui-css', '//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css');
+        wp_enqueue_style('style-admin-css', path1 . 'assets/css/style.css');
+    }
+    if ('travel-package_page_ecs_travel_query_table_example' == $hook) {
+        wp_enqueue_style('jquery-datatables-css', '//cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css');
+        wp_enqueue_style('css-datatables-css','//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css');
+        wp_enqueue_script('jquery-datatables-js', '//cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js', array('jquery'), '', true);
+        // wp_enqueue_script('d-script-js', path1 . 'assets/js/datable.js', array('jquery'), '', true);
+        wp_enqueue_script('sweetalert2--shortcode-script', '//cdn.jsdelivr.net/npm/sweetalert2@11');
+    }
+
+    // Enqueue WordPress media uploader
+    wp_enqueue_media();
+}
 add_action('add_meta_boxes','ecs_travel_1_package_meta_box');
+
 function ecs_travel_1_package_meta_box(){
      add_meta_box('my-fist-post', 'package- field','ecs_travel_1_meta_box','travel','normal','high' );
 };
@@ -192,53 +217,10 @@ function ecs_travel_queries_table_html()
 {
  return include plugin_dir_path(__FILE__) . "/meta-box/queriestable.php";
 }
-function travel_general_setting_table_html()
+function travel_general_setting_table_html($post)
 {
-    wp_enqueue_style('custom-assets-css', path1  . 'assets/css/style.css');  
-?>
     
-    <div>
-        <h1>General Setting</h1>
-        <hr>
-        <div class="Top-bar"> Enable Product Filter <span><input type="checkbox" name="CheckBox" id="CheckBox" value="true"></span></div>
-        <hr>
-
-        <!-- /opt/lampp/htdocs/wordpress/wp-content/plugins/custom-plugin/assets/img/96464.jpg
-/opt/lampp/htdocs/wordpress/wp-content/plugins/custom-plugin/custom-plugin.php -->
-        <h1>Set Single Page Template  </h1>
-    </div>
-    <table>
-        <tbody>
-            <tr>
-
-                <td>
-
-                    <img src="<?php echo plugin_dir_url(__FILE__) . '/assets/img/Screenshot_2.png' ?>" class="im_label" alt="Image 1">
-
-                </td>
-                <td>
-                    <img src="<?php echo plugin_dir_url(__FILE__) . '/assets/img/red.png' ?>" class="im_label" alt="Image 2">
-
-                </td>
-                <td>
-                    <img src="<?php echo plugin_dir_url(__FILE__) . '/assets/img/blue.png' ?>" class="im_label" alt="Image 3">
-
-                </td>
-                <td>
-                    <img src="<?php echo plugin_dir_url(__FILE__) . '/assets/img/tempecs.png' ?>" class="im_label" alt="Image4">
-
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <!-- <div  class="grid-system" >
-       <img src="http://localhost/wordpress/wp-content/plugins/Travel_plugin_new//assets/img/Screenshot_2.png" alt="Image 1" srcset="">
-       <img src="http://localhost/wordpress/wp-content/plugins/Travel_plugin_new//assets/img/red.png" alt="Images 2" srcset="">
-        <img src="http://localhost/wordpress/wp-content/plugins/Travel_plugin_new//assets/img/blue.png" alt="Image 3" srcset="">
-        <img src="http://localhost/wordpress/wp-content/plugins/Travel_plugin_new//assets/img/tempecs.png" alt="Image 4" srcset="">
-    </div>   -->
-<?php
-
+return include plugin_dir_path(__FILE__) . 'meta-box/travel-general.php';
 }
 function ecs_travel_1_meta_box($post){
     return include  plugin_dir_path(__FILE__) . 'meta-box/travel-feature.php';

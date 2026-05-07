@@ -284,8 +284,7 @@
 		<?php }	else :	?>
 	<tr class="ui-state-default table_tr_grid" >
         <th scope="col">DAY NAME</th>    
-        <td><input class="widefat"  type="text" name="itinirary_name[]" ></td>	
-        
+        <td><input class="widefat"  type="text" name="itinirary_name[]" ></td>	   
         <th scope="col">DAY TITLE</th>
         <td><input class="widefat"  type="text" name="itinirary_title[]"  ></td>	
           
@@ -299,9 +298,9 @@
         <td><textarea  class="widefat" rows="10" cols="15"  name="itinirary_details[]" ></textarea></td>
       
         <th scope="col">IMAGE</th>
-        <td class="ask-repeater-logo-wrapper">
+            <td class="ask-repeater-logo-wrapper">
             <input type="hidden" class="ask-logo" name="logo[]" />				
-            <button type="button" class="ask-upload_image_button button"><?php _e( 'Add image', 'ask' ); ?></button>
+            <button type="button" class="ask-upload_image_button button"><?php _e( 'Add image', 'ask' ); ?></button>    
             <button type="button" class="ask-remove_image_button button remove_btn" style="display:none;"><?php _e( 'remove', 'ask' ); ?></button>
         </td>
       
