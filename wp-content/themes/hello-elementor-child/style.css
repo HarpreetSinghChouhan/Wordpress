@@ -13,12 +13,61 @@ Tags: flexible-header, custom-colors, custom-menu, custom-logo, editor-style, fe
 */
 
 /* Add your custom styles here */
+
+/* ── TT Fors – Premium Font (TypeType foundry) ─────────────────────────── */
+/* Place licensed .woff2 / .woff files in fonts/tt-fors/                    */
+@font-face {
+   font-family: 'TT Fors';
+   src: url('fonts/tt-fors/TTFors-Regular.woff2') format('woff2'),
+      url('fonts/tt-fors/TTFors-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'TT Fors';
+   src: url('fonts/tt-fors/TTFors-Medium.woff2') format('woff2'),
+      url('fonts/tt-fors/TTFors-Medium.woff') format('woff');
+   font-weight: 500;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'TT Fors';
+   src: url('fonts/tt-fors/TTFors-Bold.woff2') format('woff2'),
+      url('fonts/tt-fors/TTFors-Bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'TT Fors';
+   src: url('fonts/tt-fors/TTFors-ExtraBold.woff2') format('woff2'),
+      url('fonts/tt-fors/TTFors-ExtraBold.woff') format('woff');
+   font-weight: 800;
+   font-style: normal;
+   font-display: swap;
+}
+
+@font-face {
+   font-family: 'TT Fors';
+   src: url('fonts/tt-fors/TTFors-Black.woff2') format('woff2'),
+      url('fonts/tt-fors/TTFors-Black.woff') format('woff');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+}
+
 /* h1, h2, h3 {
     color: rgb(235, 0, 0);
 } */
- .custom-logo{
-    width: 100px;
- }
- .site-header {
-    display: none;
- }
+.custom-logo {
+   width: 100px;
+}
+
+.site-header {
+   display: none;
+}

@@ -224,11 +224,11 @@ wp_nonce_field('ask_history_repeatable_meta_box_nonce', 'ask_history_repeatable_
                     <tr id="ui-state-default" class="table_tr_grid">
                         <th scope="col">Day Name</th>
                         <td>
-                            <input type="text" class="wideFat" name="itinirary_name[]" />
+                            <input type="text" class="widefat" name="itinirary_name[]" />
                         </td>
                         <th scope="col">Day Title</th>
                         <td>
-                            <input type="text" class="wideFat" name="itinirary_title[]" />
+                            <input type="text" class="widefat" name="itinirary_title[]" />
                         </td>
                         <th scope="col">Destination Covered</th>
                         <td><textarea class="widefat" name="itinirary_attraction[]"></textarea></td>

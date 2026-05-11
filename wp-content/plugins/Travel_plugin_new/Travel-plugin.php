@@ -136,8 +136,8 @@ function ecs_travel_package_admin_script2($hook)
 <?php
 }
 //FROUNT CSS & JS FILES
-add_action('wp_enqueue_scripts', 'ecs_travel_package_front_repeater_script', 99);
-function ecs_travel_package_front_repeater_script()
+add_action('wp_enqueue_scripts', 'ecs_travel_package_front_repeater_script2', 99);
+function ecs_travel_package_front_repeater_script2()
 {
     if (get_post_type() == 'travel-package') {
         wp_enqueue_style('googleapis', '//fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300&display=swap');
