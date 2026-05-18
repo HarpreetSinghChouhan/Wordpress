@@ -114,6 +114,7 @@ function add_meta_news_image_uploader(){
    add_meta_box('image_field','Image Uploader','news_uploader_meta_box_dir','news','normal','high');
 }
 function news_uploader_meta_box_dir($post){
+    
   return  include plugin_dir_path(__FILE__) . "meta-box/news-image-feature.php";
 }
 
@@ -122,7 +123,7 @@ function add_meta_news_videos_uploader(){
   add_meta_box('video_field','Video Uploader','news_video_uploader_meta_box','news','normal', 'high');
 }
 function news_video_uploader_meta_box($post){
- return include plugin_dir_path(__FILE__) . 'meta-box/news-video-uploader.php';
+ return include plugin_dir_path(__FILE__) . '/meta-box/news-video-uploader.php';
 }
 
 // 4. SAVE DATA

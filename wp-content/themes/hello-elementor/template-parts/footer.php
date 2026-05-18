@@ -17,11 +17,11 @@ $footer_nav_menu = wp_nav_menu( [
 ?>
 <footer id="site-footer" class="site-footer">
 	<?php if ( $footer_nav_menu ) : ?>
-		<nav class="site-navigation" aria-label="<?php echo esc_attr__( 'Footer menu', 'hello-elementor' ); ?>">
+		<!-- <nav class="site-navigation" aria-label="<?php// echo esc_attr__( 'Footer menu', 'hello-elementor' ); ?>"> -->
 			<?php
 			// PHPCS - escaped by WordPress with "wp_nav_menu"
-			echo $footer_nav_menu; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+			// echo $footer_nav_menu; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			?>
-		</nav>
+		<!-- </nav> -->
 	<?php endif; ?>
 </footer>

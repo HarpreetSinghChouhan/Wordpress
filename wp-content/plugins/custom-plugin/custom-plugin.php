@@ -14,13 +14,12 @@ define('path1', plugin_dir_url(__FILE__));
 function create_travel_post_type()
 {
     $label = array(
-        'name'          => __('Travel'),
-        'singular_name' => __('Travel'),
-        // 'add_new'=>_('Add New Books'),
+        'name'          => _('Travel'),
+        'singular_name' => _('Travel'),
         'add_new_item' => _('Add New Travel'),
         'edit_item' => _('Edit Travel'),
         'all_items' => _('All Travel Package'),
-        'item_slug' => _('Edit Travel Slug'),
+        'item_slug' => _('edit-travel-slug'),
         'menu_item' => _('Travel  Location')
     );
     $support = array(
@@ -40,7 +39,7 @@ function create_travel_post_type()
         'menu_icon'  => 'dashicons-airplane',
         'hierarchical' => false,
         'supports'    => $support,
-        'rewrite' => array('slug' => 'travel-package1'),
+        'rewrite' => array('slug' => 'travel'),
         'show_in_rest' => false, // Enables the Block Editor (Gutenberg)
     );
     register_post_type('travel', $argument);
@@ -49,7 +48,7 @@ function create_travel_post_type()
         'labels' => array(
             'name' => _x('Locations', 'taxonomy general name'),
             'singular_name' => _x('Location', 'taxonomy singular name'),
-            'menu_name' => __('Locations'),
+            'menu_name' => _('Locations'),
             
         ),
 
@@ -87,7 +86,7 @@ function create_travel_post_type()
             'delete_item' => _(' Delete Package '),
             'new_item_name' => _('New Package Name'),
             'parent_item' => _('Parent Package'),
-            'parent_item_name' => ('parent Package'),
+            'parent_item_name' => _('parent Package'),
         ),
         'show_in_rest' => true,
         'rewrite' => array(
@@ -126,7 +125,7 @@ function ecs_travel_package_front_repeater_script()
 
         // wp_enqueue_script('script-js', path1 . 'assets/js/front.js', array('jquery'), '', true);
         // wp_enqueue_script('bootstrap-js',  '//cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js', array('jquery'), '',true );
-        wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', array('jquery'), '', true);
+        wp_enqueue_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js', array('jquery'),"", true);
         wp_enqueue_script('JS-cus-validation-v-script', '//cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js');
         wp_enqueue_script('js-cus-validation-v1-script', '//cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js');
         // wp_enqueue_script('form-ajax-js', path . 'assets/js/form-single.js', ['jquery'], null, true);

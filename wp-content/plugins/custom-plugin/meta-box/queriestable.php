@@ -1,7 +1,7 @@
 <?php
 global $wpdb;
 $table = "query_table";
-wp_enqueue_style('custom-template-plugin2-css', path . 'assets/css/backend.css');
+wp_enqueue_style('custom-template-plugin2-css', path1 . 'assets/css/backend.css');
 $data = $wpdb->get_results("SELECT * FROM  $wpdb->prefix$table");
 //   print_r($data);
 ?>
